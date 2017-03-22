@@ -1,0 +1,8 @@
+{
+  "name": "rest-url-builder",
+  "version": "1.0.0",
+  "description": "An url builder with easy parameter substitution",
+  "main": "index.js",
+  "author": "Sumanth Shankar",
+  "license": "MIT"
+}
