@@ -2,10 +2,14 @@
   "name": "rest-url-builder",
   "version": "1.0.0",
   "description": "A rest url builder with easy parameter substitution",
-  "main": "bin/rest-url-builder.js",
-  "typing": "bin/rest-url-builder.d.ts",
+  "main": "./bin/rest-url-builder.js",
+  "typing": "./bin/rest-url-builder.d.ts",
   "author": "Sumanth Shankar <careers.s.shankar@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShankarSumanth/rest-url-builder.git"
+  },
   "scripts": {
     "clean": "rimraf bin",
     "test": "karma start --single-run",
