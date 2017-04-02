@@ -1,4 +1,4 @@
-import { RestURLBuilder } from './rest-url-builder.service';
+import { RestURLBuilder } from './rest-url-builder';
 
 describe('REST URL Builder', () => {
   let restUrlBuilder: RestURLBuilder;

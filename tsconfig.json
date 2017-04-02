@@ -5,9 +5,12 @@
         "module": "commonjs",
         "target": "es5",
         "noImplicitAny": false,
-        "sourceMap": true
+        "outDir": "./bin",
+        "sourceMap": true,
+        "declaration": true
     },
     "exclude": [
-        "node_modules"
+        "node_modules",
+        "**/*.spec.ts"
     ]
 }

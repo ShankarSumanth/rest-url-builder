@@ -2,13 +2,14 @@
   "name": "rest-url-builder",
   "version": "1.0.0",
   "description": "An url builder with easy parameter substitution",
-  "main": "dist/rest-url-builder.js",
+  "main": "bin/rest-url-builder.js",
+  "typing": "bin/rest-url-builder.d.ts",
   "author": "Sumanth Shankar",
   "license": "MIT",
   "scripts": {
-    "clean": "rimraf node_modules dist && npm cache clean",
-    "test": "karma start --log-level debug --single-run",
-    "build": "tsc"
+    "clean": "rimraf bin",
+    "test": "karma start --single-run",
+    "start": "npm run clean && tsc"
   },
   "devDependencies": {
     "@types/jasmine": "^2.5.46",
