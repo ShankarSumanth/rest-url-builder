@@ -1,6 +1,6 @@
 {
   "name": "rest-url-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A rest url builder with easy parameter substitution",
   "main": "./bin/rest-url-builder.js",
   "typing": "./bin/rest-url-builder.d.ts",
