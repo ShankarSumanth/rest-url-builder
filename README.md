@@ -26,7 +26,7 @@ urlBuilder.get();
 ```
 
 # Examples
-All the examples use [Typescript](https://www.typescriptlang.org/).
+All examples are [Typescript](https://www.typescriptlang.org/) based.
 
 Example 1: Get users
 
