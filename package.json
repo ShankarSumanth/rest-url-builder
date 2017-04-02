@@ -6,6 +6,7 @@
   "typings": "./bin/rest-url-builder.d.ts",
   "author": "Sumanth Shankar <careers.s.shankar@gmail.com>",
   "license": "MIT",
+  "readme": "README.md",
   "repository": {
     "type": "git",
     "url": "https://github.com/ShankarSumanth/rest-url-builder.git"
