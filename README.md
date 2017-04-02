@@ -64,10 +64,10 @@ private organizationUsersURL = 'https://fromsomewhere.com/organizations/:organiz
 Example 3: query parameter example - The advantage here is the unused query parameters are removed from the final url. No need to check with `if else` or run it with `for (queryParam in queryParams)`. Produces nice urls.
 
 ```typescript
-private filerUserByRoleAndName = 'https://fromsomewhere.com/organizations/:organizationId/users?role=:role&name=:name';
+private filterUserByRoleAndName = 'https://fromsomewhere.com/organizations/:organizationId/users?role=:role&name=:name';
 
  getUsers(organizationId: number, role: string, name: string) { // organizationId = 3, role ="manager", name=null
-    let builder = this.urlBuilder.buildRestURL(this.filerUserByRoleAndName);
+    let builder = this.urlBuilder.buildRestURL(this.filterUserByRoleAndName);
     builder.setNamedParameter('organizationId', organizationId);
     builder.setQueryParameter('role', role);
     builder.setQueryParameter('name', name);
