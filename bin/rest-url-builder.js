@@ -76,10 +76,10 @@ var RestURLBuilder = (function () {
             if (isQueryParam && value) {
                 if (!_this.firstQueryInvoked) {
                     _this.firstQueryInvoked = true;
-                    url = url + '?' + parameter + '=' + value;
+                    url = url + '?' + parameter.slice(1) + '=' + value;
                 }
                 else {
-                    url = url + '&' + parameter + '=' + value;
+                    url = url + '&' + parameter.slice(1) + '=' + value;
                 }
             }
         });
