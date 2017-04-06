@@ -87,9 +87,9 @@ export class RestURLBuilder {
         if (isQueryParam && value) {
           if (!this.firstQueryInvoked) {
             this.firstQueryInvoked = true;
-            url = url + '?' + parameter.splice(1) + '=' + value;
+            url = url + '?' + parameter.slice(1) + '=' + value;
           } else {
-            url = url + '&' + parameter.splice(1) + '=' + value;
+            url = url + '&' + parameter.slice(1) + '=' + value;
           }
         }
       });
